@@ -64,4 +64,48 @@
 .nav-links-btn a {
   color: #fff;
 }
+
 /* #endregion header */
+
+
+/* #region copy */
+
+.copy-page-title {
+  background-color: #42d04d;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 844px;
+  height: 289px;
+  margin-top: 48px;
+  margin-left: 79px;
+  margin-bottom: 80px;
+  margin-right: 517px;
+}
+
+.copy-page-title h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+
+.copy-page-title p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 40px;
+}
+
+.copy-page-title a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+/* #endregion copy */
