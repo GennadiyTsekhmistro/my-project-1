@@ -1,8 +1,6 @@
-
-
-/* #region header */ 
+/* #region header */
 .header {
-  background-color: green;
+  /* background-color: green; */
   width: 100%;
   max-width: 1440px;
   height: 164px;
@@ -32,6 +30,7 @@
 
 .nav-links-ul {
   display: flex;
+  align-items: center;
   gap: 48px;
   list-style: none;
   margin-right: 80px;
@@ -39,13 +38,30 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
-  color: #000; 
 }
 
-.nav-links a {
+.nav-links-ul a {
   text-decoration: none;
+  color: #000;
 }
 
+.nav-links-btn {
+  border-radius: 8px;
+  padding: 14px 24px;
+  width: 99px;
+  height: 52px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
 
-
+.nav-links-btn a {
+  color: #fff;
+}
 /* #endregion header */
