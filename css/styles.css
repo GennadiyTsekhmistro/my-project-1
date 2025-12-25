@@ -83,6 +83,20 @@
 
 /* #region copy */
 
+.content-wrapper {
+  background-color: #b1d37b;
+  background-image: url('../images/background-oranges.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-width: 1440px;
+  /* на всю ширину блоку */
+  height: auto;
+  /* висота під контент, або можна задати фіксовану */
+  min-height: 556px;
+}
+
 .copy-page-title {
   display: flex;
   align-items: flex-start;
@@ -94,7 +108,12 @@
   margin-left: 79px;
   margin-bottom: 80px;
   margin-right: 517px;
+
 }
+
+
+
+
 
 .copy-page-title h1 {
   font-family: "Inter", sans-serif;
@@ -145,3 +164,16 @@
 
 
 /* #endregion copy */
+
+/* #region hero-image */
+
+.hero-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+
+
+/* #endregion hero-image */
