@@ -83,6 +83,7 @@
 
 /* #region copy */
 
+
 .content-wrapper {
   background-color: #b1d37b;
   background-image: url('../images/background-oranges.png');
@@ -90,10 +91,8 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-width: 1440px;
-  /* на всю ширину блоку */
+  max-width: 1440px;
   height: auto;
-  /* висота під контент, або можна задати фіксовану */
   min-height: 556px;
 }
 
@@ -104,24 +103,19 @@
   flex-direction: column;
   max-width: 844px;
   height: 289px;
-  margin-top: 48px;
   margin-left: 79px;
-  margin-bottom: 80px;
-  margin-right: 517px;
-
 }
 
 
 
-
-
-.copy-page-title h1 {
+.copy-title {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 64px;
   letter-spacing: -0.02em;
   color: #000;
-  margin: 0;
+  margin-top: 48px;
+  margin-bottom: 24px;
 }
 
 .copy-page-title p {
@@ -130,7 +124,6 @@
   font-size: 24px;
   line-height: 150%;
   color: rgba(0, 0, 0, 0.75);
-  margin-top: 24px;
   margin-bottom: 40px;
 }
 
@@ -174,6 +167,21 @@
   margin-bottom: 80px;
 }
 
-
+.hero-image img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  min-height: 640px;
+}
 
 /* #endregion hero-image */
+
+/* #region section-heading-top */
+
+
+/* #endregion section-heading-top */
+
