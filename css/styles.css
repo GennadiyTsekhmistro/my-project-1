@@ -568,16 +568,40 @@
   width: 1440px;
   height: 264px;
   background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-site-name h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 88px;
+}
+
+
+.footer-nav-links-ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  list-style: none;
+  width: 184px;
+  height: 40px;
+  padding: 0;
+  margin: 0 0 0 80px;
 }
 
 
 
-
-
 .footer-site-name-icon {
-  width: 20px;
-  height: 20px;
-  /* background: #828282; */
+  width: 40px;
+  height: 40px;
 }
 
 
