@@ -571,7 +571,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
+
+
 
 .footer-site-name h3 {
   font-family: "Inter", sans-serif;
@@ -594,7 +597,7 @@
   width: 184px;
   height: 40px;
   padding: 0;
-  margin: 0 0 0 80px;
+  margin: 0 472px 0 80px;
 }
 
 
@@ -604,5 +607,25 @@
   height: 40px;
 }
 
+.modal-content-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 187px;
+  height: 168px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.modal-content-page-one {
+  margin-right: 32px;
+}
+
+.modal-content-page-three {
+  margin-right: 80px;
+  margin-left: 32px;
+}
 
 /* #endregion section-site-name */
