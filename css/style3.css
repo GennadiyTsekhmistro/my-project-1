@@ -2,7 +2,7 @@
 
 .header-shop-title {
   /* background-color: green; */
-  
+
   max-width: 1440px;
   display: flex;
   flex-direction: column;
@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 140px;
 }
 
 .site-name-shop-title p {
@@ -116,6 +117,7 @@
   gap: 16px;
   width: 844px;
   height: 140px;
+  margin-bottom: 40px;
 }
 
 .shop-title-text h1 {
@@ -126,6 +128,7 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .shop-title-text p {
@@ -135,17 +138,15 @@
   line-height: 140%;
   text-align: center;
   color: #fff;
-  /* width: 844px;
-  height: 60px; */
 }
 
 .shop-title-btn {
-  border: 2px solid #fff;
   border-radius: 8px;
-  padding: 14px 24px;
-  width: 99px;
-  height: 52px;
+  padding: 20px 32px;
+  width: 141px;
+  height: 76px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -155,8 +156,259 @@
   line-height: 150%;
   color: #fff;
   text-decoration: none;
+  margin-bottom: 180px;
+}
+
+.shop-title-btn:hover,
+.shop-title-btn:focus {
+  background: #a43434;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  outline: none;
+  cursor: pointer;
+}
+
+.shop-title-btn:hover,
+.shop-title-btn:focus {
+  color: #160202;
+}
+
+
+/* #endregion header-shop-title */
+
+/* #region heading-shop-title */
+
+.decorative-line-shop-pear {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.heading-shop-title-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 516px;
+  height: 228px;
+  margin-left: 80px;
+}
+
+.heading-shop-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 516px;
+  height: 228px;
+}
+
+
+.heading-shop-title h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #000;
+}
+
+.heading-shop-title p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #828282;
+  margin-bottom: 40px;
+}
+
+.heading-shop-btn-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* flex-direction: row; */
+  gap: 16px;
+  margin-right: 80px;
+}
+
+.heading-shop-btn-contact3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 125px;
+  height: 60px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #000;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.heading-shop-btn-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 255px;
+  height: 60px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #e6e6e6;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+}
+
+.decorative-shop-pear {
+  border-radius: 8px;
+  width: 624px;
+  height: 400px;
+  margin-left: 140px;
+}
+
+.heading-shop-btn-contact3:hover,
+.heading-shop-btn-contact3:focus {
+  background: #908bda;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  color: #160202;
+  outline: none;
+  cursor: pointer;
+}
+
+.heading-shop-btn-secondary:hover,
+.heading-shop-btn-secondary:focus {
+  background: #170101;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  color: #ece0e0;
+  outline: none;
+  cursor: pointer;
+}
+
+
+/* #endregion heading-shop-title */
+
+
+/* #region heading-shop-title-second */
+
+.heading-shop-container-watermelon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.heading-shop-image-watermelon {
+  border-radius: 8px;
+  width: 625px;
+  height: 400px;
+  margin-right: 140px;
+  margin-left: 80px;
+}
+
+.heading-shop-content-watermelon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 516px;
+  height: 228px;
+}
+
+.heading-shop-content-watermelon h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: #000;
+}
+
+.heading-shop-content-watermelon p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #828282;
+  margin-bottom: 24px;
+}
+
+.heading-shop-btns-watermelon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.heading-shop-btn-watermelon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 125px;
+  height: 60px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #000;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.heading-shop-btn-secondary-watermelon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  width: 255px;
+  height: 60px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #e6e6e6;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+}
+
+.heading-shop-btn-watermelon:hover,
+.heading-shop-btn-watermelon:focus {
+  background: #908bda;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  color: #160202;
+  outline: none;
+  cursor: pointer;
+}
+
+.heading-shop-btn-secondary-watermelon:hover,
+.heading-shop-btn-secondary-watermelon:focus {
+  background: #170101;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  color: #ece0e0;
+  outline: none;
+  cursor: pointer;
 }
 
 
 
-/* #endregion header-shop-title */
+/* #endregion heading-shop-title-second */
