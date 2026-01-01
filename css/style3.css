@@ -226,7 +226,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /* flex-direction: row; */
   gap: 16px;
   margin-right: 80px;
 }
@@ -412,3 +411,144 @@
 
 
 /* #endregion heading-shop-title-second */
+
+
+/* #region-heading-section-heading */
+
+.section-heading-shop-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #000;
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-bottom: 48px;
+}
+
+.section-shop-assorted-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 48px;
+  margin-left: 80px;
+  margin-bottom: 150px;
+}
+
+.section-shop-assorted-item {
+  width: 735px;
+  height: 735px;
+}
+
+.section-shop-assorted-item img {
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.section-shop-assorted-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  width: 735px;
+  height: 104px;
+}
+
+.section-shop-assorted-text h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin: 0;
+}
+
+.text-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #828282;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.text-description-price {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  margin: 0;
+}
+
+.section-shop-assorted-item-min {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  width: 515px;
+  height: 863px;
+}
+
+.section-shop-assorted-min {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+  width: 515px;
+  height: 411px;
+  margin-top: 48px;
+}
+
+.section-shop-assorted-min img {
+  border-radius: 8px;
+  width: 515px;
+  height: 283px;
+  margin-bottom: 24px;
+}
+
+.section-shop-assorted-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  width: 515px;
+  height: 104px;
+}
+
+.section-shop-assorted-list h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin: 0;
+}
+
+.list-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #828282;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.list-description-price {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+  margin: 0;
+}
+
+
+/* #endregion-heading-section-heading */
