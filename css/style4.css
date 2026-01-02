@@ -1,0 +1,101 @@
+/* #region header-product-detail-page */
+.header-product-detail-page {
+  /* background-color: green; */
+  width: 100%;
+  max-width: 1440px;
+  height: 164px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-product-detail-page {
+  width: 100%;
+}
+
+.site-name-product-detail-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.site-name-product-detail-page p {
+  margin-left: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000;
+}
+
+.nav-links-ul-product-detail-page {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  list-style: none;
+  margin-right: 80px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.nav-links-ul-product-detail-page a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links-btn-product-detail-page {
+  border-radius: 8px;
+  padding: 14px 24px;
+  width: 99px;
+  height: 52px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.nav-links-btn-product-detail-page a {
+  color: #fff;
+}
+
+.nav-links-btn-product-detail-page:hover,
+.nav-links-btn-product-detail-page:focus {
+  background: #a43434;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  outline: none;
+  cursor: pointer;
+}
+
+.nav-links-btn-product-detail-page:hover a,
+.nav-links-btn-product-detail-page a:focus {
+  color: #160202;
+}
+
+/* #endregion header-product-detail-page */
+
+
+/* #region header-product-name */
+
+.product-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 140px;
+  margin: 0 80px 80px 80px;
+}
+
+.product-image-stone-mushroom {
+  border-radius: 12px;
+  width: 625px;
+  height: 613px;
+}
+
+
+/* #endregion header-product-name */
