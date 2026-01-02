@@ -552,3 +552,145 @@
 
 
 /* #endregion-heading-section-heading */
+
+/* #region-heading-section-subheading */
+
+
+.section-subheading-shop-bottom-container {
+  padding-top: 150px;
+}
+
+.section-subheading-shop-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #000;
+  margin: 0;
+  margin-left: 80px;
+  margin-bottom: 48px;
+}
+
+.section-subheading-shop-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 250px;
+  margin-top: 48px;
+  margin-left: 80px;
+  margin-bottom: 150px;
+}
+
+.section-subheading-shop-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 48px;
+  width: 515px;
+  height: 396px;
+}
+
+.subheading-shop-item-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 515px;
+  height: 174px;
+}
+
+.subheading-shop-item-content h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin: 0;
+}
+
+.section-subheading-shop-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.subheading-description {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #828282;
+  margin: 0;
+}
+
+
+/* #endregion-heading-section-subheading */
+
+/* #region shop-section-site-name */
+
+.shop-footer-section-site-name {
+  width: 1440px;
+  height: 264px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+.shop-footer-site-name h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 88px;
+}
+
+
+.shop-footer-nav-links-ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  list-style: none;
+  width: 184px;
+  height: 40px;
+  padding: 0;
+  margin: 0 472px 0 80px;
+}
+
+
+
+.shop-footer-site-name-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.shop-modal-content-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 187px;
+  height: 168px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.shop-modal-content-page-one {
+  margin-right: 32px;
+}
+
+.shop-modal-content-page-three {
+  margin-right: 80px;
+  margin-left: 32px;
+}
+
+/* #endregion shop-section-site-name */
