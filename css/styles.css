@@ -466,7 +466,7 @@
 /* #endregion section-heading-avatar */
 
 /* #region section-heading-third-botton */
-
+/* 
 .section-heading-third-botton-div {
   display: flex;
   align-items: center;
@@ -558,11 +558,94 @@
   color: #ece0e0;
   outline: none;
   cursor: pointer;
+} */
+
+
+
+
+.section-heading-third-botton-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1440px;       /* фіксована ширина контейнера */
+  height: 236px;
+  margin: 150px auto 0 auto; /* центрування контейнера на сторінці */
+  padding: 0 80px;     /* внутрішні відступи зліва і справа */
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #000;
+  box-sizing: border-box; /* щоб padding не додавався до ширини */
 }
+
+.section-heading-third-botton {
+  margin: 0;            /* прибрали зайві margin */
+  width: 625px;         /* ширина заголовка */
+}
+
+.heading-third-botton {
+  display: flex;
+  align-items: center;
+  gap: 24px;            /* відстань між кнопками */
+  margin: 0;
+  height: 76px;
+  width: 436px;
+}
+
+.heading-second-btn-contact5,
+.heading-second-btn-contact6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 20px 32px;
+  height: 76px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  transition: all 0.2s ease;
+}
+
+.heading-second-btn-contact5 {
+  width: 141px;
+  background: #000;
+  color: #fff;
+}
+
+.heading-second-btn-contact6 {
+  width: 271px;
+  background: #e6e6e6;
+  color: #000;
+}
+
+.heading-second-btn-contact5:hover,
+.heading-second-btn-contact5:focus {
+  background: #908bda;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  color: #160202;
+  outline: none;
+  cursor: pointer;
+}
+
+.heading-second-btn-contact6:hover,
+.heading-second-btn-contact6:focus {
+  background: #170101;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  color: #ece0e0;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
 
 /* #endregion section-heading-third-botton */
 
-/* #region section-site-name */
+/* #region footer-section-site-name */
 
 .footer-section-site-name {
   width: 1440px;
@@ -628,4 +711,4 @@
   margin-left: 32px;
 }
 
-/* #endregion section-site-name */
+/* #endregion footer-section-site-name */
