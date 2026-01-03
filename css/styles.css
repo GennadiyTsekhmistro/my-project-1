@@ -466,108 +466,13 @@
 /* #endregion section-heading-avatar */
 
 /* #region section-heading-third-botton */
-/* 
-.section-heading-third-botton-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1440px;
-  height: 236px;
-  margin-top: 150px;
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  letter-spacing: -0.02em;
-  color: #000;
-}
-
-.section-heading-third-botton {
-  font-family: "Inter", sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  letter-spacing: -0.02em;
-  color: #000;
-  margin-left: 80px;
-  margin-right: 219px;
-  width: 625px;
-}
-
-.heading-third-botton {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 24px;
-}
-
-.heading-third-botton {
-  width: 436px;
-  height: 76px;
-  margin-right: 80px;
-}
-
-.heading-second-btn-contact5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 20px 32px;
-  width: 141px;
-  height: 76px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  background: #000;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 150%;
-  color: #fff;
-}
-
-
-.heading-second-btn-contact6 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  border-radius: 8px;
-  padding: 20px 32px;
-  width: 271px;
-  height: 76px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  background: #e6e6e6;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 150%;
-  color: #000;
-}
-
-.heading-second-btn-contact5:hover,
-.heading-second-btn-contact5:focus {
-  background: #908bda;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  color: #160202;
-  outline: none;
-  cursor: pointer;
-}
-
-.heading-second-btn-contact6:hover,
-.heading-second-btn-contact6:focus {
-  background: #170101;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  color: #ece0e0;
-  outline: none;
-  cursor: pointer;
-} */
-
-
 
 
 .section-heading-third-botton-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1440px;       /* фіксована ширина контейнера */
+  width: 1440px;       
   height: 236px;
   margin: 150px auto 0 auto; /* центрування контейнера на сторінці */
   padding: 0 80px;     /* внутрішні відступи зліва і справа */
