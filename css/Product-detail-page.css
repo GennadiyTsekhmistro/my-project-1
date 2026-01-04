@@ -208,7 +208,11 @@
   align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-  width: calc((100% - 35px) / 3);  
+  width: calc((100% - 35px) / 3);
+
+
+  position: relative;
+  /* щоб overlay позиціонувався всередині */
 }
 
 .related-products-grid img {
@@ -218,7 +222,36 @@
   border-radius: 8px;
   display: block;
   margin-bottom: 24px;
+
+
+  display: block;
 }
+
+/* стилі overlay */
+.related-product-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: lightblue;
+  color: #000;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0;
+  /* приховано */
+  transform: translateY(100%);
+  /* зсунуте вниз */
+  transition: all 0.3s ease;
+}
+
+/* показати при наведенні */
+.related-products-grid:hover .related-product-overlay {
+  opacity: 1;
+  transform: translateY(0);
+  /* піднімається вгору */
+}
+
 
 .related-products-grid-title {
   font-family: "Inter", sans-serif;
