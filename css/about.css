@@ -160,6 +160,7 @@
   height: 488px;
   margin-top: 30px;
   margin-left: 80px;
+  margin-bottom: 111px;
 }
 
 .first-name-last-name-div {
@@ -333,3 +334,71 @@
 
 
 /* #endregion main-about-modal-window */
+
+/* #region footer-section-site-about */
+
+.footer-section-site-name {
+  width: 1440px;
+  height: 264px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+
+.footer-site-name h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: 88px;
+}
+
+
+.footer-nav-links-ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  list-style: none;
+  width: 184px;
+  height: 40px;
+  padding: 0;
+  margin: 0 472px 0 80px;
+}
+
+
+
+.footer-site-name-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.modal-content-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 187px;
+  height: 168px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.modal-content-page-one {
+  margin-right: 32px;
+}
+
+.modal-content-page-three {
+  margin-right: 80px;
+  margin-left: 32px;
+}
+
+/* #endregion footer-section-site-about */
